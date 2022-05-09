@@ -2,7 +2,7 @@
 <room>
   <caption></caption>
   <width>1024</width>
-  <height>768</height>
+  <height>480</height>
   <vsnap>16</vsnap>
   <hsnap>16</hsnap>
   <isometric>0</isometric>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="" xview="0" yview="0" wview="320" hview="240" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="objMan" xview="0" yview="0" wview="320" hview="240" xport="0" yport="0" wport="640" hport="480" hborder="999" vborder="999" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -51,24 +51,8 @@
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objMan" x="96" y="160" name="inst_4241FE92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="0" y="176" name="inst_3371CD7E" locked="0" code="" scaleX="36" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="576" y="128" name="inst_E1B6F3C9" locked="0" code="" scaleX="4" scaleY="6" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="640" y="128" name="inst_BB49ADD4" locked="0" code="" scaleX="10" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="864" y="160" name="inst_2421C42A" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="944" y="0" name="inst_0195BE3D" locked="0" code="" scaleX="2" scaleY="44" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="784" y="240" name="inst_37EE6C4C" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="560" y="704" name="inst_1CD83699" locked="0" code="" scaleX="26" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="688" y="304" name="inst_340AE95C" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="144" y="368" name="inst_8369CB5A" locked="0" code="" scaleX="50" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="0" y="224" name="inst_A54391A4" locked="0" code="" scaleX="3" scaleY="32" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="48" y="704" name="inst_FB299B01" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="parPlatform" x="192" y="304" name="inst_8DF10E65" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parPlatform" x="48" y="464" name="inst_77487798" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parPlatform" x="48" y="528" name="inst_E85C6CF7" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parPlatform" x="48" y="384" name="inst_8938497F" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parPlatform" x="48" y="592" name="inst_AE27552A" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parPlatform" x="48" y="656" name="inst_FDF4BFC0" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parSolid" x="0" y="416" name="inst_7AEE3812" locked="0" code="" scaleX="64" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objDoor" x="96" y="384" name="inst_0C8DF0A6" locked="0" code="targetX = 304;&#xA;targetY = 304;&#xA;targetRoom = rmTest1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

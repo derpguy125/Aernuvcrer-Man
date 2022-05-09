@@ -3,8 +3,8 @@
   <spriteName>sprManStand</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
-  <persistent>0</persistent>
+  <depth>-55</depth>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>sprManMask</maskName>
   <events>
@@ -35,11 +35,12 @@ canMinJump = true;
 isShoot = false; //Are we currently shooting?
 
 //Physics variables
-grav = 0.25;
+grav = 0.17;
 curGrav = grav;
 
 jumpSpeed = 4.75 + curGrav;
 walkSpeed = 3;
+maxHspeed = 8;
 maxVspeed = 7;
 stepSpeed = 1/7;
 stepFrames = 7;
@@ -47,7 +48,7 @@ stepFrames = 7;
 hsp = 0;
 vsp = 0;
 
-
+targRoom = rmTemplate;
 
 dir = 1;
 
