@@ -74,7 +74,7 @@ alarm[0] = 5;
           <argument>
             <kind>1</kind>
             <string>if active then with objMan {
-    if keyboard_check(vk_up) &amp;&amp; (y &lt; other.y + 20 &amp;&amp; y &gt; other.y + 12) then {
+    if keyboard_check(vk_up) &amp;&amp; ground then {
         x = other.targetX;
         y = other.targetY;
         targRoom = other.targetRoom;
