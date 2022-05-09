@@ -80,6 +80,40 @@
     <instance objName="parSolid" x="848" y="640" name="inst_3ABCCBF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="880" y="640" name="inst_CFD22A03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDoor" x="304" y="288" name="inst_731109C1" locked="0" code="targetX = 96&#xA;targetY = 400&#xA;targetRoom = rmTest2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="192" y="144" name="inst_538AC6DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="224" y="144" name="inst_4356CD00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="256" y="144" name="inst_CDD635E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="288" y="144" name="inst_FA7D231C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="320" y="144" name="inst_1AED16B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="352" y="144" name="inst_BF1E3B62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="624" y="96" name="inst_BA44420D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="592" y="96" name="inst_3D1B7FDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="560" y="112" name="inst_8BE89A2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="544" y="144" name="inst_A67A3A5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="912" y="160" name="inst_C29A5C15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="880" y="160" name="inst_DF51DA58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="848" y="224" name="inst_84BFF7E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="816" y="224" name="inst_1DDDF25E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="752" y="288" name="inst_0BE0136A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="720" y="288" name="inst_F9609CB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="576" y="352" name="inst_A267FD76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="496" y="352" name="inst_194703A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="592" y="624" name="inst_10F12689" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="656" y="624" name="inst_E0625EA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="624" y="624" name="inst_A34F84B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="560" y="624" name="inst_5300248B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="688" y="624" name="inst_AC5AA111" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="672" y="592" name="inst_D6EC6689" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="640" y="592" name="inst_920A313A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="608" y="592" name="inst_254673A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="576" y="592" name="inst_7D8AC672" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="832" y="624" name="inst_310CF230" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="864" y="624" name="inst_816B6E98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="896" y="624" name="inst_86BBFAB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="800" y="624" name="inst_E7FD9048" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="816" y="592" name="inst_8E6079EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="848" y="592" name="inst_CFFC0CCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="880" y="592" name="inst_D0A400D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
