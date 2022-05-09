@@ -212,7 +212,9 @@ else
     }
 }
 
-
+if keyboard_check(ord("C")) {
+    walkSpeed = 5;
+} else walkSpeed = 3;
 
 //Gravity
 if ground == true
@@ -255,7 +257,7 @@ if keyboard_check_pressed(ord('X')) &amp;&amp; instance_number(objMegamanBullet)
     else
         box = bbox_right;
         
-    ID = instance_create(box+dir*16, y+-8, objMegamanBullet);
+    ID = instance_create(box+dir*8, y+-4, objMegamanBullet);
         ID.hspeed = dir * 5;
     isShoot = true;
     alarm[0] = 20;
