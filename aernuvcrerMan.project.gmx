@@ -4,10 +4,44 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sounds name="sound">
+    <sounds name="Sounds">
+      <sound>sound\sndExplode</sound>
+    </sounds>
+  </sounds>
+  <sprites name="sprites">
+    <sprites name="Man">
+      <sprite>sprites\sprManStand</sprite>
+      <sprite>sprites\sprManStep</sprite>
+      <sprite>sprites\sprManJump</sprite>
+      <sprite>sprites\sprManWalk</sprite>
+      <sprite>sprites\sprManStandShoot</sprite>
+      <sprite>sprites\sprManJumpShoot</sprite>
+      <sprite>sprites\sprManWalkShoot</sprite>
+      <sprite>sprites\sprManSkate</sprite>
+      <sprite>sprites\sprManMask</sprite>
+      <sprite>sprites\sprBullet</sprite>
+    </sprites>
+    <sprite>sprites\sprSolid</sprite>
+    <sprite>sprites\sprPlatform</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\collisions_player.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\objMan</object>
+    <object>objects\objMegamanBullet</object>
+    <objects name="Parents">
+      <object>objects\parSolid</object>
+      <object>objects\parPlatform</object>
+      <object>objects\parEnemy</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
