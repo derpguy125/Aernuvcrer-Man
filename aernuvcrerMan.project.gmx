@@ -7,9 +7,19 @@
   <sounds name="sound">
     <sounds name="Sounds">
       <sound>sound\sndExplode</sound>
+      <sound>sound\sndShooty</sound>
+      <sound>sound\sndBoing</sound>
+      <sound>sound\sndDollar</sound>
+      <sound>sound\sndManPain</sound>
+      <sound>sound\sndManDead</sound>
     </sounds>
     <sounds name="Music">
+      <sound>sound\musDidIt</sound>
       <sound>sound\musTitle</sound>
+      <sound>sound\musCity</sound>
+      <sound>sound\musGrass</sound>
+      <sound>sound\musCave</sound>
+      <sound>sound\musNull</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -21,32 +31,59 @@
       <sprite>sprites\sprManStandShoot</sprite>
       <sprite>sprites\sprManJumpShoot</sprite>
       <sprite>sprites\sprManWalkShoot</sprite>
+      <sprite>sprites\sprManOuch</sprite>
+      <sprite>sprites\sprManDead</sprite>
       <sprite>sprites\sprManSkate</sprite>
       <sprite>sprites\sprManMask</sprite>
       <sprite>sprites\sprBullet</sprite>
     </sprites>
-    <sprite>sprites\sprSolid</sprite>
-    <sprite>sprites\sprPlatform</sprite>
     <sprites name="Objects">
       <sprite>sprites\sprDoor</sprite>
       <sprite>sprites\sprDollar</sprite>
+      <sprite>sprites\sprTrampoline</sprite>
+      <sprite>sprites\objEnemyReflector</sprite>
+      <sprite>sprites\sprSign</sprite>
     </sprites>
     <sprites name="Scenery">
       <sprite>sprites\sprTestTitle</sprite>
       <sprite>sprites\sprPressStart</sprite>
     </sprites>
+    <sprites name="Other">
+      <sprite>sprites\sprFont</sprite>
+      <sprite>sprites\sprUpArrow</sprite>
+    </sprites>
+    <sprites name="Enemies">
+      <sprite>sprites\sprEnemyMask</sprite>
+      <sprite>sprites\sprPepper</sprite>
+      <sprite>sprites\sprPepperDead</sprite>
+    </sprites>
+    <sprites name="Tiles">
+      <sprite>sprites\sprSolid</sprite>
+      <sprite>sprites\sprPlatform</sprite>
+      <sprite>sprites\sprHallway</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgTitle</background>
+    <background>background\bgVictory</background>
+    <backgrounds name="Tilesets">
+      <background>background\tilGrass</background>
+      <background>background\tilTest</background>
+    </backgrounds>
+    <background>background\bgGrass</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\collisions_player.gml</script>
+    <script>scripts\collisions_other.gml</script>
     <script>scripts\draw_self_player.gml</script>
     <script>scripts\play_music.gml</script>
+    <script>scripts\player_hurt.gml</script>
+    <script>scripts\player_die.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\objMan</object>
+    <object>objects\objManDead</object>
     <object>objects\objMegamanBullet</object>
     <objects name="Parents">
       <object>objects\parSolid</object>
@@ -55,24 +92,40 @@
     </objects>
     <objects name="Objects">
       <object>objects\objDoor</object>
+      <object>objects\objHallway</object>
       <object>objects\objDollar</object>
+      <object>objects\objBouncyDollar</object>
+      <object>objects\objTrampoline</object>
+      <object>objects\objEnemyReverser</object>
+      <object>objects\objSign</object>
     </objects>
     <objects name="Controllers">
       <object>objects\objMusicPlayer</object>
       <object>objects\objInit</object>
+      <object>objects\objHud</object>
     </objects>
     <objects name="Scenery">
       <object>objects\objTestTitle</object>
       <object>objects\objPressStart</object>
+      <object>objects\objDeadEnemy</object>
+    </objects>
+    <objects name="Enemies">
+      <object>objects\objPepper</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmInit</room>
     <room>rooms\rmTitle</room>
     <room>rooms\rmLvlSelect</room>
-    <room>rooms\rmTest1</room>
-    <room>rooms\rmTest2</room>
     <room>rooms\rmTemplate</room>
+    <rooms name="Test Level">
+      <room>rooms\rmTest1</room>
+      <room>rooms\rmTest2</room>
+    </rooms>
+    <rooms name="GrassWorld">
+      <room>rooms\rmGrass1</room>
+      <room>rooms\rmGrass2</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -39,6 +39,13 @@ if place_meeting(x,y+vsp,parSolid) {
         y += sign(vsp);
     }
     vsp = 0;
+    if canMove == false && canHurt == false {
+        canMove = true;
+        hsp = 0;
+        
+        alarm[5] = 120;
+        image_alpha = 0.5;
+    }
 }
 y += vsp;
 
@@ -54,6 +61,13 @@ if position_meeting(round(x), round(y) + 16, parPlatform) && vsp > 0  {
         y = (wall.bbox_top) - sprite_bbox_bottom;
     }
     vsp = 0;
+    if canMove == false && canHurt == false {
+        canMove = true;
+        hsp = 0;
+        
+        alarm[5] = 120;
+        image_alpha = 0.5;
+    }
 }
 
 

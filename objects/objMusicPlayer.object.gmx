@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,8 +25,36 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>currentlyplaying = 0
+            <string>song = musTitle;
 jingle = 0
+
+alarm[0] = 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if !audio_is_playing(song) then {
+    audio_stop_all();
+    audio_play_sound(song,1,1);
+}
 </string>
           </argument>
         </arguments>
@@ -50,25 +78,6 @@ jingle = 0
           <argument>
             <kind>1</kind>
             <string>audio_master_gain(0.5)
-
-if (jingle == 0) {
-    if (room == rmTitle) currentlyPlaying = musTitle;
-}
-
-
-if (jingle == 0)
-{
-    if (!audio_is_playing(currentlyplaying + 1))
-    {
-        audio_stop_all()
-        play_music(currentlyplaying + 1)
-    }
-    if audio_is_paused(currentlyplaying + 1)
-    {
-        audio_pause_all()
-        audio_resume_sound(currentlyplaying + 1)
-    }
-}
 </string>
           </argument>
         </arguments>

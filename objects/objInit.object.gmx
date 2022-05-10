@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(rmTitle);
+            <string>global.font = font_add_sprite(sprFont,ord("!"),1,1);
+
+room_goto(rmTitle);
+
+draw_set_font(global.font);
 </string>
           </argument>
         </arguments>

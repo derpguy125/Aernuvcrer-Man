@@ -71,7 +71,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite_ext(sprite_index,image_index,x,y,1,1,sin(wave)*8,c_white,1);
+            <string>draw_sprite_ext(sprite_index,image_index,x,y,2,2,sin(wave)*8,c_white,1);
 </string>
           </argument>
         </arguments>
