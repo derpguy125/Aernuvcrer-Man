@@ -102,7 +102,7 @@
     <instance objName="objDollar" x="1232" y="352" name="inst_3933A41D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="1904" y="0" name="inst_756415AE" locked="0" code="" scaleX="9" scaleY="20" colour="4294967295" rotation="0"/>
     <instance objName="objSign" x="128" y="384" name="inst_614DC81A" locked="0" code="text = &quot;Collect DOLLARS to#stay alive!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSign" x="416" y="384" name="inst_4E45BF92" locked="0" code="text = &quot;Don't Fall!#Also, C to run.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSign" x="416" y="384" name="inst_4E45BF92" locked="0" code="text = &quot;Don't Fall!#Also, SHIFT to run.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSign" x="672" y="352" name="inst_38C27279" locked="0" code="text = &quot;Press X to shoot!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSign" x="1872" y="336" name="inst_3F8B3B26" locked="0" code="text = &quot;Some walls arent what#they seem...#Good Luck, A-Man!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHallway" x="2032" y="320" name="inst_96A7E25A" locked="0" code="targetX = 16;&#xA;targetY = 64;&#xA;targetRoom = rmGrass2;&#xA;" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>

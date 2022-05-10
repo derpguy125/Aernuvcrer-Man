@@ -60,6 +60,8 @@
     <instance objName="objSign" x="272" y="384" name="inst_78A7CB42" locked="0" code="text = &quot;Howdy, Aernuvcrer Man!#Press Z to jump!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSign" x="672" y="384" name="inst_C73DDD63" locked="0" code="text = &quot;Press UP to read signs#or enter doors!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMusicPlayer" x="0" y="0" name="inst_BF5F4568" locked="0" code="song = musNull;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSign" x="400" y="240" name="inst_AF1970FF" locked="0" code="text = &quot;When you die in a#level for good,#you return here.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSign" x="96" y="384" name="inst_EBE47C28" locked="0" code="text = &quot;Everything you'll see#is subject to#ai-generated#change.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tilTest" x="0" y="416" w="16" h="16" xo="0" yo="0" id="10001098" name="inst_B87BCEB7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

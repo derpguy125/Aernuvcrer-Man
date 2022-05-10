@@ -265,7 +265,7 @@ if canMove {
         }
     }
     
-    if keyboard_check(ord("C")) {
+    if keyboard_check(vk_shift) {
         walkSpeed = 5;
     } else walkSpeed = 3;
     
