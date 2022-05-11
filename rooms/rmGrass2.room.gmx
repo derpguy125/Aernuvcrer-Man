@@ -114,7 +114,6 @@
     <instance objName="objEnemyReverser" x="592" y="256" name="inst_8F057175" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPepper" x="704" y="256" name="inst_CD891346" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPepper" x="640" y="256" name="inst_4707BE79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPepper" x="880" y="160" name="inst_A259927B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnemyReverser" x="848" y="160" name="inst_8A80F367" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnemyReverser" x="912" y="160" name="inst_949C1045" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnemyReverser" x="1824" y="288" name="inst_99502936" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -124,10 +123,10 @@
     <instance objName="objPepper" x="1584" y="288" name="inst_2DD4D6FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPepper" x="1744" y="288" name="inst_6B64F270" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPepper" x="1664" y="288" name="inst_B7B264D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPepper" x="1136" y="80" name="inst_4CCBAA34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPepper" x="1200" y="80" name="inst_F37A9BA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnemyReverser" x="1040" y="80" name="inst_5CFE5C15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnemyReverser" x="1280" y="80" name="inst_C59EB0BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLancer" x="1120" y="64" name="inst_7134257B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLancer" x="864" y="144" name="inst_1A614F80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tilGrass" x="0" y="80" w="16" h="16" xo="0" yo="0" id="10001444" name="inst_0C5777B0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

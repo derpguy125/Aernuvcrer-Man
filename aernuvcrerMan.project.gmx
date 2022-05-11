@@ -56,6 +56,8 @@
       <sprite>sprites\sprEnemyMask</sprite>
       <sprite>sprites\sprPepper</sprite>
       <sprite>sprites\sprPepperDead</sprite>
+      <sprite>sprites\sprLancer</sprite>
+      <sprite>sprites\sprLancerDead</sprite>
     </sprites>
     <sprites name="Tiles">
       <sprite>sprites\sprSolid</sprite>
@@ -89,6 +91,7 @@
       <object>objects\parSolid</object>
       <object>objects\parPlatform</object>
       <object>objects\parEnemy</object>
+      <object>objects\parLancer</object>
     </objects>
     <objects name="Objects">
       <object>objects\objDoor</object>
@@ -108,9 +111,11 @@
       <object>objects\objTestTitle</object>
       <object>objects\objPressStart</object>
       <object>objects\objDeadEnemy</object>
+      <object>objects\objDeadLancer</object>
     </objects>
     <objects name="Enemies">
       <object>objects\objPepper</object>
+      <object>objects\objLancer</object>
     </objects>
   </objects>
   <rooms name="rooms">
