@@ -127,7 +127,7 @@
     <instance objName="objEnemyReverser" x="1280" y="80" name="inst_C59EB0BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLancer" x="1168" y="80" name="inst_7134257B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLancer" x="880" y="160" name="inst_1A614F80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHallway" x="2032" y="256" name="inst_B8DD290E" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objHallway" x="2032" y="256" name="inst_B8DD290E" locked="0" code="targetX = 16;&#xA;targetY = 208;&#xA;targetRoom = rmGrass3;&#xA;" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tilGrass" x="0" y="80" w="16" h="16" xo="0" yo="0" id="10001444" name="inst_0C5777B0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
