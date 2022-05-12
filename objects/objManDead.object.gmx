@@ -133,7 +133,19 @@
     global.dollar = 0;
     instance_destroy();
 } else {
-    room_goto(rmLvlSelect);
+    switch room {
+        
+        case rmTutorial1:
+            room_goto(rmTutorial1);
+            break;
+        case rmTutorial2:
+            room_goto(rmTutorial1);
+            break;
+            
+        default:
+            room_goto(rmLvlSelect);
+            break;
+    }
 }
 </string>
           </argument>

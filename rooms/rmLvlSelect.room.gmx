@@ -51,17 +51,16 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objMan" x="48" y="400" name="inst_0705BCB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="0" y="416" name="inst_7AEE3812" locked="0" code="" scaleX="64" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objDoor" x="736" y="384" name="inst_81D2187E" locked="0" code="targetX = 32&#xA;targetY = 400&#xA;targetRoom = rmGrass1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="352" y="320" name="inst_B9D7137A" locked="0" code="" scaleX="2" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="384" y="272" name="inst_4BE95295" locked="0" code="" scaleX="3" scaleY="9" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="320" y="368" name="inst_7AA1E590" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="objSign" x="272" y="384" name="inst_78A7CB42" locked="0" code="text = &quot;Howdy, Aernuvcrer Man!#Press Z to jump!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSign" x="672" y="384" name="inst_C73DDD63" locked="0" code="text = &quot;Press UP to read signs#or enter doors!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMusicPlayer" x="0" y="0" name="inst_BF5F4568" locked="0" code="song = musNull;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSign" x="400" y="240" name="inst_AF1970FF" locked="0" code="text = &quot;When you die in a#level for good,#you return here.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSign" x="96" y="384" name="inst_EBE47C28" locked="0" code="text = &quot;Everything you'll see#is subject to#ai-generated#change.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSign" x="400" y="240" name="inst_AF1970FF" locked="0" code="text = &quot;When you die in a#level for good,#you return here.&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSign" x="208" y="384" name="inst_89EF1B31" locked="0" code="text = &quot;Everything seen is#subject to change.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMan" x="32" y="400" name="inst_A5A62704" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tilTest" x="0" y="416" w="16" h="16" xo="0" yo="0" id="10001098" name="inst_B87BCEB7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

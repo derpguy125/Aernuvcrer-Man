@@ -106,7 +106,6 @@
     <instance objName="objSign" x="1872" y="336" name="inst_3F8B3B26" locked="0" code="text = &quot;Some walls arent what#they seem...#Good Luck, A-Man!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHallway" x="2032" y="320" name="inst_96A7E25A" locked="0" code="targetX = 16;&#xA;targetY = 64;&#xA;targetRoom = rmGrass2;&#xA;" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="0" y="416" name="inst_72BB8353" locked="0" code="" scaleX="27" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="objMan" x="48" y="400" name="inst_A05587AD" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tilGrass" x="16" y="416" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_3F77AE3C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

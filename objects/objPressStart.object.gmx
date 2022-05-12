@@ -94,7 +94,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>rmLvlSelect</room>
+            <room>rmTutorial1</room>
           </argument>
         </arguments>
       </action>

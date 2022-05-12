@@ -43,6 +43,7 @@
       <sprite>sprites\sprTrampoline</sprite>
       <sprite>sprites\objEnemyReflector</sprite>
       <sprite>sprites\sprSign</sprite>
+      <sprite>sprites\sprGoal</sprite>
     </sprites>
     <sprites name="Scenery">
       <sprite>sprites\sprTestTitle</sprite>
@@ -91,7 +92,6 @@
       <object>objects\parSolid</object>
       <object>objects\parPlatform</object>
       <object>objects\parEnemy</object>
-      <object>objects\parLancer</object>
     </objects>
     <objects name="Objects">
       <object>objects\objDoor</object>
@@ -101,17 +101,18 @@
       <object>objects\objTrampoline</object>
       <object>objects\objEnemyReverser</object>
       <object>objects\objSign</object>
+      <object>objects\objGoal</object>
     </objects>
     <objects name="Controllers">
       <object>objects\objMusicPlayer</object>
       <object>objects\objInit</object>
       <object>objects\objHud</object>
+      <object>objects\objGoalAfter</object>
     </objects>
     <objects name="Scenery">
       <object>objects\objTestTitle</object>
       <object>objects\objPressStart</object>
       <object>objects\objDeadEnemy</object>
-      <object>objects\objDeadLancer</object>
     </objects>
     <objects name="Enemies">
       <object>objects\objPepper</object>
@@ -121,7 +122,12 @@
   <rooms name="rooms">
     <room>rooms\rmInit</room>
     <room>rooms\rmTitle</room>
+    <rooms name="Tutorial">
+      <room>rooms\rmTutorial1</room>
+      <room>rooms\rmTutorial2</room>
+    </rooms>
     <room>rooms\rmLvlSelect</room>
+    <room>rooms\rmYaDidIt</room>
     <room>rooms\rmTemplate</room>
     <rooms name="Test Level">
       <room>rooms\rmTest1</room>

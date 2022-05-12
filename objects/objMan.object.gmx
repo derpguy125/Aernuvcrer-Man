@@ -309,7 +309,13 @@ if canMove {
             box = bbox_right;
             
         ID = instance_create(box+dir*8, y+-4, objMegamanBullet);
-            ID.hspeed = dir * 5;
+            if !ground &amp;&amp; keyboard_check(vk_down) {
+                ID.vspeed = 8;
+                ID.image_angle = 90;
+            } else if keyboard_check(vk_up) {
+                ID.vspeed = -8;
+                ID.image_angle = -90
+            } else ID.hspeed = dir * 8;
         isShoot = true;
         alarm[0] = 20;
     }
@@ -445,8 +451,8 @@ if y &gt; room_height then {
             <kind>1</kind>
             <string>/// Checkpoint Stuff
 
-global.startx = xstart;
-global.starty = ystart;
+global.startx = x;
+global.starty = y;
 </string>
           </argument>
         </arguments>
