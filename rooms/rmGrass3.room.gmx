@@ -2021,6 +2021,7 @@
     <tile bgName="tilGrass" x="2064" y="224" w="32" h="16" xo="0" yo="16" id="10008310" name="inst_1106B011" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tilGrass" x="2000" y="256" w="16" h="16" xo="32" yo="0" id="10008311" name="inst_EC925179" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tilGrass" x="1408" y="192" w="32" h="16" xo="32" yo="16" id="10008312" name="inst_08D897DB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="560" y="256" w="16" h="16" xo="48" yo="0" id="10008313" name="inst_032059EE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
