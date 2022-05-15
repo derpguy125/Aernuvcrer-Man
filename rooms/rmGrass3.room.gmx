@@ -52,10 +52,6 @@
   </views>
   <instances>
     <instance objName="parSolid" x="0" y="240" name="inst_31ED07CB" locked="0" code="" scaleX="17" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parPlatform" x="96" y="208" name="inst_24DA5987" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parPlatform" x="112" y="208" name="inst_5113F703" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parPlatform" x="128" y="208" name="inst_59C404EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parPlatform" x="144" y="208" name="inst_F7040A7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="272" y="208" name="inst_002B7C28" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="320" y="176" name="inst_D99B329B" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="368" y="176" name="inst_5746B7B6" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
@@ -91,30 +87,41 @@
     <instance objName="parRslope" x="560" y="256" name="inst_9C81B9C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="1184" y="192" name="inst_A8054AF6" locked="0" code="" scaleX="5" scaleY="2.13333344459534" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="1312" y="192" name="inst_120BEE27" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parRslope" x="1408" y="192" name="inst_BE7FFB4A" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parRslope" x="1472" y="208" name="inst_1D4A2877" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parRslope" x="1408" y="192" name="inst_BE7FFB4A" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parRslope" x="1472" y="208" name="inst_1D4A2877" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parRslope" x="1520" y="224" name="inst_35F06089" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parRslope" x="1552" y="240" name="inst_4970B2F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parRslope" x="1568" y="256" name="inst_8AFE0F47" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parRslope" x="1600" y="272" name="inst_A208998C" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parRslope" x="1648" y="288" name="inst_05F536F8" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parSolid" x="1696" y="304" name="inst_687ECBA1" locked="0" code="" scaleX="14" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parMajorL" x="1920" y="288" name="inst_DA99766C" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parRslope" x="1600" y="272" name="inst_A208998C" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parRslope" x="1648" y="288" name="inst_05F536F8" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parSolid" x="1696" y="304" name="inst_687ECBA1" locked="0" code="" scaleX="15" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parMajorL" x="1936" y="288" name="inst_DA99766C" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parMajorL" x="1968" y="272" name="inst_E8C7E48D" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parMajorL" x="2000" y="256" name="inst_75BCDF81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parMajorL" x="2016" y="240" name="inst_FC24D93F" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="parMajorL" x="2048" y="224" name="inst_E4AE057E" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parMajorL" x="2064" y="224" name="inst_E4AE057E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="parSolid" x="2096" y="224" name="inst_1AE81E02" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDollar" x="1472" y="192" name="inst_9F0D2765" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDollar" x="1520" y="208" name="inst_FDA6287D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDollar" x="1600" y="256" name="inst_7E82D17A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDollar" x="1648" y="272" name="inst_BFC63E04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDollar" x="1712" y="288" name="inst_9615D2E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="1456" y="192" name="inst_9F0D2765" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="1504" y="208" name="inst_FDA6287D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="1584" y="240" name="inst_7E82D17A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="1616" y="256" name="inst_BFC63E04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="1648" y="272" name="inst_9615D2E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDollar" x="1408" y="176" name="inst_70923718" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDollar" x="1568" y="224" name="inst_087B9ABE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="1552" y="224" name="inst_087B9ABE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnemyReverser" x="1808" y="288" name="inst_C4D52FED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnemyReverser" x="1904" y="288" name="inst_0BD63AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLancer" x="1840" y="288" name="inst_B87964EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parSolid" x="2048" y="240" name="inst_DF4F7E6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parSolid" x="1680" y="304" name="inst_8346024D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parSolid" x="1632" y="288" name="inst_F1F1165C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parSolid" x="1504" y="224" name="inst_659C09BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parSolid" x="1440" y="208" name="inst_B18642E6" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="1696" y="288" name="inst_E298C3FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="1936" y="288" name="inst_9CE23B87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="1984" y="256" name="inst_630EBCA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="2048" y="224" name="inst_32C61AF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDollar" x="2112" y="208" name="inst_3C2E8921" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="parPlatform" x="96" y="208" name="inst_3CD7CDD1" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tilGrass" x="0" y="240" w="16" h="16" xo="0" yo="0" id="10005589" name="inst_9C3C510E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1997,6 +2004,23 @@
     <tile bgName="tilGrass" x="880" y="304" w="16" h="16" xo="0" yo="0" id="10008292" name="inst_386D0D8A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tilGrass" x="880" y="320" w="16" h="16" xo="0" yo="0" id="10008293" name="inst_D392538D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tilGrass" x="880" y="336" w="16" h="16" xo="0" yo="0" id="10008294" name="inst_BC9E0802" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="480" y="176" w="16" h="16" xo="48" yo="0" id="10008295" name="inst_C3E43D43" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="496" y="192" w="16" h="16" xo="48" yo="0" id="10008296" name="inst_38186F7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="512" y="208" w="16" h="16" xo="48" yo="0" id="10008297" name="inst_CE945848" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="528" y="224" w="16" h="16" xo="48" yo="0" id="10008298" name="inst_B7F9C80B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="544" y="240" w="16" h="16" xo="48" yo="0" id="10008299" name="inst_7503E512" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="1648" y="288" w="32" h="16" xo="32" yo="16" id="10008301" name="inst_FEA2A723" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="1600" y="272" w="32" h="16" xo="32" yo="16" id="10008302" name="inst_3A3E0CA7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="1568" y="256" w="32" h="16" xo="32" yo="16" id="10008303" name="inst_7D173A6C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="1552" y="240" w="16" h="16" xo="48" yo="0" id="10008304" name="inst_F078958D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="1520" y="224" w="32" h="16" xo="32" yo="16" id="10008305" name="inst_416AA233" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="1472" y="208" w="32" h="16" xo="32" yo="16" id="10008306" name="inst_D4C6897F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="1936" y="288" w="32" h="16" xo="0" yo="16" id="10008307" name="inst_DAFB060E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="1968" y="272" w="32" h="16" xo="0" yo="16" id="10008308" name="inst_B1B332B6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="2016" y="240" w="32" h="16" xo="0" yo="16" id="10008309" name="inst_4AEF12F6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="2064" y="224" w="32" h="16" xo="0" yo="16" id="10008310" name="inst_1106B011" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="2000" y="256" w="16" h="16" xo="32" yo="0" id="10008311" name="inst_EC925179" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tilGrass" x="1408" y="192" w="32" h="16" xo="32" yo="16" id="10008312" name="inst_08D897DB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
