@@ -20,6 +20,7 @@
       <sound>sound\musGrass</sound>
       <sound>sound\musCave</sound>
       <sound>sound\musNull</sound>
+      <sound>sound\musEscape</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -62,6 +63,8 @@
     </sprites>
     <sprites name="Tiles">
       <sprite>sprites\sprSolid</sprite>
+      <sprite>sprites\sprRslope</sprite>
+      <sprite>sprites\sprLoserSlope</sprite>
       <sprite>sprites\sprPlatform</sprite>
       <sprite>sprites\sprHallway</sprite>
     </sprites>
@@ -90,6 +93,8 @@
     <object>objects\objMegamanBullet</object>
     <objects name="Parents">
       <object>objects\parSolid</object>
+      <object>objects\parRslope</object>
+      <object>objects\parMajorL</object>
       <object>objects\parPlatform</object>
       <object>objects\parEnemy</object>
     </objects>
@@ -102,6 +107,7 @@
       <object>objects\objEnemyReverser</object>
       <object>objects\objSign</object>
       <object>objects\objGoal</object>
+      <object>objects\objPlaceHolderHall</object>
     </objects>
     <objects name="Controllers">
       <object>objects\objMusicPlayer</object>
@@ -136,6 +142,7 @@
     <rooms name="GrassWorld">
       <room>rooms\rmGrass1</room>
       <room>rooms\rmGrass2</room>
+      <room>rooms\rmGrass3</room>
     </rooms>
   </rooms>
   <help>
