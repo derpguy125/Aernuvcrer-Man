@@ -53,6 +53,7 @@
     <sprites name="Other">
       <sprite>sprites\sprFont</sprite>
       <sprite>sprites\sprUpArrow</sprite>
+      <sprite>sprites\sprBloob</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\sprEnemyMask</sprite>
@@ -97,6 +98,7 @@
       <object>objects\parMajorL</object>
       <object>objects\parPlatform</object>
       <object>objects\parEnemy</object>
+      <object>objects\parParticle</object>
     </objects>
     <objects name="Objects">
       <object>objects\objDoor</object>
@@ -108,6 +110,7 @@
       <object>objects\objSign</object>
       <object>objects\objGoal</object>
       <object>objects\objPlaceHolderHall</object>
+      <object>objects\objBloodGenerator</object>
     </objects>
     <objects name="Controllers">
       <object>objects\objMusicPlayer</object>
@@ -123,6 +126,9 @@
     <objects name="Enemies">
       <object>objects\objPepper</object>
       <object>objects\objLancer</object>
+    </objects>
+    <objects name="Particles">
+      <object>objects\objBlood</object>
     </objects>
   </objects>
   <rooms name="rooms">

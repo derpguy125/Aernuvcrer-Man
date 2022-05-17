@@ -53,6 +53,23 @@
   <instances>
     <instance objName="objPressStart" x="176" y="448" name="inst_A1EC4B05" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objMusicPlayer" x="0" y="0" name="inst_0B5C3D00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="288" y="183" name="inst_7D3F384D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="296" y="156" name="inst_5EAA7475" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="286" y="118" name="inst_BC6C269F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="389" y="135" name="inst_87BF4BFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="302" y="183" name="inst_B3C810B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="333" y="175" name="inst_1D9ADC68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="347" y="173" name="inst_BE8B8E1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="306" y="178" name="inst_D6518360" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="322" y="175" name="inst_ECADB074" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="356" y="109" name="inst_A184F12D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="322" y="116" name="inst_CEF72EA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="276" y="122" name="inst_565E497E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="246" y="150" name="inst_D72AE7D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="320" y="156" name="inst_EB3C3987" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="341" y="117" name="inst_5372C0BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="258" y="124" name="inst_3A5A99D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBloodGenerator" x="309" y="179" name="inst_FD753495" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
